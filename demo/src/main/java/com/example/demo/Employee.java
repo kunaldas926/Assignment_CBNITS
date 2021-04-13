@@ -1,36 +1,31 @@
 package com.example.demo;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+
 @Entity
 public class Employee {
-    @Id
-    private Long EmpID;
-    private String EmpName;
+	@Id
+	private Integer empid;
+	private String empname;
+	private String desig;
+	
+	public Integer getEmpid() {
+		return empid;
+	}
+	public void setEmpid(Integer empid) {
+		this.empid = empid;
+	}
+	public String getEmpname() {
+		return empname;
+	}
+	public void setEmpname(String empname) {
+		this.empname = empname;
+	}
+	public String getDesig() {
+		return desig;
+	}
+	public void setDesig(String desig) {
+		this.desig = desig;
+	}
 
-    public Long getEmpID() {
-        return EmpID;
-    }
-
-    public void setEmpID(Long empID) {
-        EmpID = empID;
-    }
-
-    public String getEmpName() {
-        return EmpName;
-    }
-
-    public void setEmpName(String empName) {
-        EmpName = empName;
-    }
-
-    public String getDesignation() {
-        return Designation;
-    }
-
-    public void setDesignation(String designation) {
-        Designation = designation;
-    }
-
-    private String Designation;
 }

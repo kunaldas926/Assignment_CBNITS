@@ -1,4 +1,4 @@
-INSERT INTO employee(EmpID, EmpName, Designation) VALUES(1, 'abc', 'abc@cbnits.com');
-INSERT INTO employee(EmpID, EmpName, Designation) VALUES(2, 'def', 'def@cbnits.com');
-INSERT INTO employee(EmpID, EmpName, Designation) VALUES(3, 'ghi', 'ghi@cbnits.com');
+INSERT INTO employee(empid, empname, desig) VALUES(1, 'abc', 'ceo');
+INSERT INTO employee(empid, empname, desig) VALUES(2, 'def', 'cto');
+INSERT INTO employee(empid, empname, desig) VALUES(3, 'ghi', 'hr');
 COMMIT;
