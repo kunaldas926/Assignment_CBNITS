@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Java Test</title>
+  <meta charset="utf-8">
+</head>
+<body>
+<div id="main">
+  <h1>Number conversion</h1>
+  <form id="conversion">
+    <table class="horizontal">
+      <tr>
+        <th scope="row"><label for="base10">Decimal (10)</label></th>
+        <td><input type="text" name="base10" id="base10" accesskey="D" size="32" oninput="numberOnInput(this)" maxlength="15"></td>
+      </tr>
+      <tr>
+        <th scope="row"><label for="base16">Hex (16)</label></th>
+        <td><input type="text" name="base16" id="base16" accesskey="H" size="32" oninput="numberOnInput(this)" maxlength="12"></td>
+      </tr>
+      <tr>
+        <th scope="row"><label for="base8">Octal (8)</label></th>
+        <td><input type="text" name="base8" id="base8" accesskey="O" size="32" oninput="numberOnInput(this)" maxlength="16"></td>
+      </tr>
+      <tr>
+        <th scope="row"><label for="base2">Binary (2)</label></th>
+        <td><input type="text" name="base2" id="base2" accesskey="B" size="32" oninput="numberOnInput(this)" maxlength="48"></td>
+      </tr>
+    </table>
+  </form>
+  <script type="text/javascript" src="./js/main.js"></script>
+</div>
+</body>
+</html>
